@@ -1,0 +1,11 @@
+Difference b/w for and while loop:
+for loop used for finite conditions but while can be used for both finite and infinite conditions
+
+Loop acts in three parts: 1. Initialization   2. Condition   3. Increment/Decrement
+
+Interview Question:
+    for(int i=1;i<=5;i++);
+        printf("Chitkara %d",i);
+Output: Chitkara 6
+Reason: there is semicolon after for statement so it concludes while reading internal part and after loop runs value written for loop run once.
+
