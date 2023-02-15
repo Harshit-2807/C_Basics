@@ -199,31 +199,7 @@ int main()
         printf("\n");
     }
     printf("\n");
-
-
-    // 1
-    // 1 2
-    // 1 2 3
-    // 1 2 3 4
-    // 1 2 3 4 5
-    // 1 2 3 4
-    // 1 2 3 
-    // 1 2
-    // 1
     
-    for(i=1;i<=n;i++)
-    {
-        for(j=1;j<=i;j++)
-            printf("%d ",j);
-        printf("\n");
-    }
-    for(i-=2;i>=1;i--)
-    {
-        for(j=1;j<=i;j++)
-            printf("%d ",j);
-        printf("\n");
-    }
-    printf("\n");
 
     // 1
     // 1 2
